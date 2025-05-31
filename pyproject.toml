@@ -1,0 +1,15 @@
+[project]
+name = "video-browser"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "click>=8.2.1",
+    "playwright>=1.52.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipython>=9.3.0",
+]
